@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Авторизация</title>
+</head>
+<body>
+    <div class="form">
+        <h1>АВТОРИЗАЦИЯ</h1>
+        <input type="text" id="login" placeholder="Вводите свой логин">
+        <input type="password" id="password" placeholder="Вводите свой пароль">
+        <button id="btn1" onclick="checkPassword()">ВОЙТИ</button>
+   </div>
+   <script>
+       const password = "1234"; // Ваш пароль
+
+       function checkPassword() {
+           const enteredPassword = document.getElementById("password").value;
+
+           if (enteredPassword === password) {
+               // Переход на страницу с видео
+               window.location.href = "index2.html";
+           } else {
+               // Переход на главную страницу
+               window.location.href = "index1.html";
+           }
+       }
+   </script>
+</body>
+</html>
