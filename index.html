@@ -1,32 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Авторизация</title>
+    <title>Книжный сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .block2 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .book {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .book button:hover {
+            background-color: #45a049;
+        }
+
+        .book h3{
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-    <div class="form">
-        <h1>АВТОРИЗАЦИЯ</h1>
-        <input type="text" id="login" placeholder="Вводите свой логин">
-        <input type="password" id="password" placeholder="Вводите свой пароль">
-        <button id="btn1" onclick="checkPassword()">ВОЙТИ</button>
-   </div>
-   <script>
-       const password = "1234"; // Ваш пароль
+    <div class="block2">
+        <div class="book">
+            <img src="/photo_5424848152650963723_y.jpg" alt="Книга 1">
+            <h3>Стратегие мышление богатых и бедых людей</h3>
+            <button onclick="openBook(1)">Открыть</button>
+        </div>
+        <div class="book">
+            <img src="/photo_5424848152650963723_y.jpg" alt="Книга 2">
+            <h3>Стратегие мышление богатых и бедых людей</h3>
+            <button onclick="openBook(2)">Открыть</button>
+        </div>
+    </div>
+    <div class="block2">
+        <div class="book">
+            <img src="/photo_5424848152650963723_y.jpg" alt="Книга 1">
+            <h3>Стратегие мышление богатых и бедых людей</h3>
+            <button onclick="openBook(1)">Открыть</button>
+        </div>
+        <div class="book">
+            <img src="/photo_5424848152650963723_y.jpg" alt="Книга 2">
+            <h3>Стратегие мышление богатых и бедых людей</h3>
+            <button onclick="openBook(2)">Открыть</button>
+        </div>
+    </div>
 
-       function checkPassword() {
-           const enteredPassword = document.getElementById("password").value;
-
-           if (enteredPassword === password) {
-               // Переход на страницу с видео
-               window.location.href = "index2.html";
-           } else {
-               // Переход на главную страницу
-               window.location.href = "index1.html";
-           }
-       }
-   </script>
+    <!-- Повторите для остальных книг -->
+    <script>
+        function openBook(bookId) {
+            alert('Открыть книгу ' + bookId);
+            // Здесь можно добавить логику для открытия книги
+        }
+    </script>
 </body>
 </html>
