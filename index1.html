@@ -4,33 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
         body {
-            background-color: red;
-            height: 100vh;
+            background-color: rgb(7, 11, 40);
+            font-family: Arial, sans-serif;
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
             justify-content: center;
-            font-family: Montserrat, sans-serif;
+            margin: 0;
+            padding: 0;
         }
-
-        #h1, h2 {
-            font-size: 15px;
-        }
-
-        #form {
+        .book {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 700px;
+            text-align: center;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 300px;
+            height: 400px;
         }
+        .book img {
+            max-width: 70%;
+            height: 60%;
+            border-radius: 5px;
+        }
+        .book button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .book button:hover {
+            background-color: #45a049;
+        }
+        .book h3{
+            font-size: 16px;
+            color: white;
+            margin-left: 40px;
+        }
+        .block2 h1{
+            color: white;
+        }
+        .a1{
+            color: white;
+            font-size: 14px;
+            padding: 9px;
+            text-decoration: none;
+        }
+    </style>    
 
-    </style>
 </head>
 <body>
-    <form action="" id="form">
-        <h1 id="h1">УПС! ВАС НЕТУ В БАЗE!</h1>
-        <h2 id="h2" ><a href="index.html">ПОЖАЛУЙСТА ОБНАВИТЕ СТРАНИЦУ!</a> </h2>
-    </form>
+    <div class="book">
+        <img src="/4433.jpeg" alt="Книга 1">
+        <h3>Стратегие мышление богатых и бедых людей</h3>
+    </div>
 </body>
 </html>
