@@ -1,131 +1,40 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Книжный сайт</title>
-    <style>
-        body {
-            background-color: rgb(7, 11, 40);
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        .block2 {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .book {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin: 10px;
-            padding: 5px;
-            width: 200px;
-            text-align: center;
-        }
-        .book img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .book button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .book button:hover {
-            background-color: #45a049;
-        }
-
-        .book h3{
-            font-size: 16px;
-            color: white;
-        }
-
-        .block2 h1{
-            color: white;
-        }
-        .a1{
-            color: white;
-            font-size: 14px;
-            padding: 9px;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="icon" href="https://i.ibb.co/GP3dyzw/IMG-6199.jpg">
+    <title>Frontend-кейс</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./js/index.js" type="module" defer></script>
 </head>
 <body>
-    <div class="block2">
-        <h1>СПИСОК КНИГ</h1>
-        <div class="book">
-            <img src="4433.jpeg" alt="Книга 1">
-            <h3>Стратегие мышление богатых и бедых людей</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="2.jpg" alt="Книга 2">
-            <h3>Я и деньги</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="3.jpeg" alt="Книга 1">
-            <h3>Чего не знает женщина о мужчинах, и что должен знать мужчина о женщинах</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="4.jpeg" alt="Книга 2">
-            <h3>Долги тают на глазах</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="5.jpeg" alt="Книга 1">
-            <h3>Духовные законы богатства</h3>
-            <button><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="6.jpg" alt="Книга 2">
-            <h3>Как стать миллионером в ТАДЖИКИСТАНЕ</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="7.jpg" alt="Книга 1">
-            <h3>10 шагов как стать миллионером на территории СНГ</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="8.jpg" alt="Книга 2">
-            <h3>Талисман победителя</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="9.jpeg" alt="Книга 1">
-            <h3>Я и деньги 2</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="10.jpeg" alt="Книга 2">
-            <h3>Деньги в сетевом маркетинге</h3>
-            <button><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
-        <div class="book">
-            <img src="11.jpeg" alt="Книга 1">
-            <h3>Мой гениальный ребёнок</h3>
-            <button ><a class="a1" href="index1.html">ОТКРЫТЬ</a></button>
-        </div>
+
+    <div class="wrapper">
+        <h1 style="font-size: 25px;" >СПИСОК КНИГ</h1>
+        <div class="cards"></div>
+        <button class="show-cards none">Покахать еще</button>
+        
+        <a href="/basket.html" class="basket">
+            <div class="basket__inner">
+                <svg width="38" height="38" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M.75-.02a.75.75 0 100 1.5l.408-.006 1.606 1.281 1.839 6.881L4.237 12a2 2 0 102.188 2.722l5.705.028a2 2 0 100-1.5l-5.705-.028a2.007 2.007 0 00-.722-.898l.438-2.632 7.933.027 1.91-7.715H4.227L1.683-.026 1.68-.02v-.005L.75-.02z" fill="#000"></path>
+                </svg>
+                <span class="basket__count">0</span>
+            </div>
+        </a>
+        <a class="home" href="/">
+            <svg width="45" height="45" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.98 1.984l7 6h-2.003v6H9.96V10.97H5.997v3.016H2.982v-6H.979l7-6z" fill="#000"></path>
+            </svg>
+        </a>
     </div>
 
-    <!-- Повторите для остальных книг -->
-    <script>
-        function openBook(bookId) {
-            alert('Открыть книгу ' + bookId);
-            // Здесь можно добавить логику для открытия книги
-        }
-    </script>
+    <footer style="font-family: Arial, Helvetica, sans-serif; text-align: center; padding: 10px 0;">
+        ВСЕ ПРАВА ЗАЩИЩЕНИ <a target="_blank" href="https://t.me/frontend_case">@frontend_case</a>.
+        Помощь новичкам!
+        Будем развиваться вместе в нашем телеграмм канале:)
+    </footer>
 </body>
 </html>
