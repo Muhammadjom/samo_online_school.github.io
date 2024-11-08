@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "title": "Стратегие мышление богатых и бедных людей",
+        "price": "110",
+        "discount": "5",
+        "img": "1.jpeg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 2,
+        "title": "Я и Деньги",
+        "price": "110",
+        "discount": "5",
+        "img": "2.jpg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 3,
+        "title": "Чего не знает женщина о мужчинах, и что должен ",
+        "price": "35000",
+        "discount": "5",
+        "img": "3.jpeg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 4,
+        "title": "Долги тают на глазах",
+        "price": "90000",
+        "discount": "3",
+        "img": "4.jpeg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 5,
+        "title": "Духовные законы богатства",
+        "price": "40000",
+        "discount": "5",
+        "img": "5.jpeg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 6,
+        "title": "Как стать миллионером в ТАДЖИКИСТАНЕ",
+        "price": "36000",
+        "discount": "5",
+        "img": "6.jpg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 7,
+        "title": "10 шагов как стать миллионером на территории СНГ",
+        "price": "60000",
+        "discount": "5",
+        "img": "7.jpg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 8,
+        "title": "Талисман победителя",
+        "price": "30200",
+        "discount": "5",
+        "img": "8.jpg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 9,
+        "title": "Я и деньги 2",
+        "price": "30200",
+        "discount": "5",
+        "img": "9.jpeg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 10,
+        "title": "Деньги в сетевом маркетинге",
+        "price": "100200",
+        "discount": "5",
+        "img": "10.jpeg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    },
+    {
+        "id": 11,
+        "title": "Мой гениальный ребёнок",
+        "price": "35000",
+        "discount": "5",
+        "img": "11.jpeg",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+    }
+]
+
