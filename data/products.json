@@ -2,90 +2,111 @@
     {
         "id": 1,
         "title": "Стратегие мышление богатых и бедных людей",
-        "price": "15",
-        "discount": "5",
+        "price": "20",
+        "discount": "20",
         "img": "1.jpeg",
-        "descr": "«Стратегия мышления богатых и бедных людей».Стратегия мышления определяет, кем мы будем в жизни богатым или бедным, удачливым или неудачником. Человек рано или поздно, сегодня или завтра ока зывается там, где его мысли. Какой ум такова и жизнь. Бедные люди бедные не потому, что хотят так жить, а потому, чтO не знают, как управлять ситуациями, со- бытиями, деньгами. Бедность и богатство сначала появляются в голове человека. Все то, что нас окружает (техника, города, самолеты), ког да-то было чьими то мыслями. Научитесь мыслить как богатые и Вы станете богатым"
+        "descr": "<b>«Стратегия мышления богатых и бедных людей»</b><br>Стратегия мышления определяет, кем мы будем в жизни богатым или бедным, удачливым или неудачником. Человек рано или поздно, сегодня или завтра оказывается там, где его мысли. Какой ум такова и жизнь. Бедные люди бедные не потому, что хотят так жить, а потому, что не знают, как управлять ситуациями, событиями, деньгами. Бедность и богатство сначала появляются в голове человека. Все то, что нас окружает (техника, города, самолеты), когда-то было чьими то мыслями. Научитесь мыслить как богатые и Вы станете богатым.",
+        "vid": "https://www.youtube.com/embed/nLTkJd4gdbo?si=jJ4bneDbQRg5oFOh"
     },
     {
         "id": 2,
         "title": "Я и Деньги",
-        "price": "110",
-        "discount": "5",
+        "price": "20",
+        "discount": "20",
         "img": "2.jpg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Я и деньги»</b><br>Даст Вам знания по финансовой грамотности, научит управлению своими деньгами, предоставит советы по увеличению ваших доходов и сокращению расходов, поможет Вам принять решение, которое может изменить Вашу жизнь и сделает Вас богатым и успешным. Ведь многие люди остаются бедными только потому, что смирились со своим положением и не хотят ничего менять. Они находят оправдания для своей бедности, не понимая, что тем самым сами закрывают дверь, ведущую к благосостоянию. На самом деле решение стать богатым или остаться бедным каждый человек принимает сам. Потому что человек рано или поздно окажется там, где его мысли. Если он думает о бедности, никогда не разбогатеет, а если думает о том, как увеличить свой доход, значит, найдет возможности для этого. Шансы на успех определяются знаниями, которыми владеет человек. Данная книга поможет Вам приобрести знания о том, как больше зарабатывать, как разумно откладывать, как инвестировать, как наслаждаться деньгами, как обращаться с отказами и проблемами, как убрать самоограничения, как правильно планировать своё время, как вкладывать в свое будущее и ещё о многом другом. Она предназначена для тех, кто хочет стать финансово свободным и реализовать свои мечты.",
+        "vid": "https://www.youtube.com/embed/ATlwq7DLu-A?si=Ub22gJSoe5k3g3Qn"
     },
     {
         "id": 3,
         "title": "Чего не знает женщина о мужчинах, и что должен ",
-        "price": "35000",
-        "discount": "5",
+        "price": "19",
+        "discount": "20",
         "img": "3.jpeg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Что не знает женщина о мужчинах и что должен знать мужчина о женщинах»</b><br>Поможет каждому, кто ее прочитает, построить свои отношения с будущим спутником, посмотрев на это без розовых очков, семейным парам разобраться в конфликтных ситуациях и упрочить свой союз. Ведь самая лучшая женщина это Ваша жена. И на свете нет лучше мужчины, чем Ваш муж. В книге Вы найдете практические знания, упражнения, которые станут ключом в Ваших будущих отношениях, построении счастья, богатства, здоровья.",
+        "vid": "https://www.youtube.com/embed/rKw_3PcyOC8?si=ir4Quqlqwix4kU1Y"
     },
     {
         "id": 4,
         "title": "Долги тают на глазах",
-        "price": "90000",
-        "discount": "3",
+        "price": "20",
+        "discount": "20",
         "img": "4.jpeg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Долги тают на глазах»</b><br>Книга обучает тому, как не попасть в долги, и при этом построить хороший бизнес. В ней заложена система методов, для того, что- бы выйти из долгов, независимо от вашего уровня доходов. От успеха до неудачи один шаг, от богатства до банкротства - тоже. Книга написана на основе жизненного опыта и все практические советы использованы и апробированы автором на протяжении пяти лет, в то время, когда он сам оказался в долгах. Книга также обучает духовным принципам, следование которым позволяет быстрее избавиться от долгов. В ней заложена точная система работы с кредитами когда брать кредит, как его получить, как им управлять.",
+        "vid": "https://www.youtube.com/embed/9gShrSQWfEc?si=EFrB-rP04TfZ9K1j"
     },
     {
         "id": 5,
         "title": "Духовные законы богатства",
-        "price": "40000",
-        "discount": "5",
+        "price": "20",
+        "discount": "20",
         "img": "5.jpeg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Духовные законы богатства»</b><br>Существуют основные духовные законы, которые работают независимо от того, знаем мы об этом или нет. Духовные принципы формируют основу долговременного успеха, без которого невозможно обойтись. Очень важно иметь жгучее желание стать успешным, еще важнее, чтобы была удача и желание вселенной и господа Бога. Вы найдете в этой книге духовные принципы, которые обеспечат Вам и Вашей семье здоровье, удачу и истинное богатство. Эти принципы веками использовались мудрецами, и благодаря ним продолжается жизнь на Земле.",
+        "vid": "https://www.youtube.com/embed/U0wWwlHUP2s?si=PBDNUj3SbBqI13tl"
     },
     {
         "id": 6,
         "title": "Как стать миллионером в ТАДЖИКИСТАНЕ",
-        "price": "36000",
-        "discount": "5",
+        "price": "19",
+        "discount": "20",
         "img": "6.jpg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Как стать миллионером в Таджикистане»</b><br>Книга содержит анализ возможностей рынка Таджикистана и рассказывает о 100 способах, как на этом рынке и в разных сферах можно заработать 1 000 000. Практические, проверенные советы, разные бизнес-модели и новейшие бизнес концепции."
     },
     {
         "id": 7,
         "title": "10 шагов как стать миллионером на территории СНГ",
-        "price": "60000",
-        "discount": "5",
+        "price": "20",
+        "discount": "20",
         "img": "7.jpg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«10 шагов, как стать миллионером на территории СНГ»</b><br>Книга дает практические советы, проверенные во многих отраслях. От выбора книги и до организации бизнеса на миллион. Она показывает, как надо анализировать рынок и как увидеть перспективные возможности сегодня, чтобы построить бизнес прибылью 1000 000 долларов в год.",
+        "vid": "https://www.youtube.com/embed/BcLDztXh7nM?si=UT50EgxM9JAn5-YN"
     },
     {
         "id": 8,
         "title": "Талисман победителя",
-        "price": "30200",
-        "discount": "5",
+        "price": "19",
+        "discount": "20",
         "img": "8.jpg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Талисман победителя»</b><br> Мы каждую минуту своей жизни можем использовать все по-навсего один раз. Единственное, что у нас в руках это наша жизнь, то, насколько мы готовы ее сделать шедевром. Знания, которые даны в этой книге, станут для Вас важнейшим капиталом, а умение использовать эти знания в жизни сделает Вас Человеком с большой буквы.",
+        "vid": "https://www.youtube.com/embed/2qpi1lnSy1A?si=X-K0BUw3hOveA29B"
     },
     {
         "id": 9,
         "title": "Я и деньги 2",
-        "price": "30200",
-        "discount": "5",
+        "price": "20",
+        "discount": "20",
         "img": "9.jpeg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Я и деньги» 2 часть</b><br>Эта книга содержит много практических знаний. В первой части мы писали о правильном мышлении по отношению к деньгам, о методах сохранения денег для создания некоего стартового капитала. Вторая часть книги «Я и деньги объясняет, как организовать денежный поток, как выбрать продукцию, как выбрать на правление, с чего начинать, как обойти подводные камни, и рассматривает многие стандартные ошибки и трудности, с которыми сталкивается предприниматель. Это проблемы с кадрами, остаток продукции, неокупаемая реклама, нехватка финансов, слабые продажи и т.д.Эта книга является обязательной для тех, кто хочет иметь пассивный доход, на 90% облегчает задачу тем, кто имеет бизнес. и на 100% тем, кто только начинает свое дело.",
+        "vid": "https://www.youtube.com/embed/4TwEkR0lvm8?si=pRdKCrg4kNK1eWof"
+
     },
     {
         "id": 10,
         "title": "Деньги в сетевом маркетинге",
-        "price": "100200",
-        "discount": "5",
+        "price": "20",
+        "discount": "20",
         "img": "10.jpeg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Деньги в сетевом маркетинге»</b><br>Эта книга написана в результате работы с разными сетевыми компаниями более 10 лет. Работая с разными фирмами как бизнес-тренер, я увидел, что в каждой из них есть что-то особенное. У кого-то сильная команда, у кого-то сильный маркетинг, у кого-то сильная система обучения. У всех компаний были свои сильные и слабые стороны.",
+        "vid": "https://www.youtube.com/embed/4xrhd40qap8?si=dAFQMtIRKtNL6vPa"
     },
     {
         "id": 11,
         "title": "Мой гениальный ребёнок",
-        "price": "35000",
-        "discount": "5",
+        "price": "18",
+        "discount": "20",
         "img": "11.jpeg",
-        "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque molestiae delectus dignissimos excepturi beatae corporis quia mollitia voluptas, saepe, consequuntur tempore ducimus! Quasi harum repellendus quos enim rem, dolore asperiores excepturi rerum perspiciatis nisi pariatur in doloribus? Architecto facere ex quas nemo, quod ullam dolor ipsam odio tenetur hic nesciunt?"
+        "descr": "<b>«Мой гениальный ребенок»</b><br> Сегодня, как никогда, актуально и необходимо обучать детей основам финансовой грамотности и личностному росту. Современное общество требует от нас быть более уверенными, самостоятельными и трудоспособными. Наши дети смысл нашей жизни, они наше будущее. Пройдет совсем немного времени, и сегодняшние дети станут вершителями уже наших судеб. Поэтому долг каждого из нас развивать в них творческое мышпение, трудолюбие, добропорядочность, способность к самообразованию, уверенность в своих силах.",
+        "vid": "https://www.youtube.com/embed/fjOt3mb6Kqc?si=jL32YQCYM7YFZlZQ"
+    },
+    {
+        "id": 12,
+        "title": "Как найти свою сылную сторону",
+        "price": "20",
+        "discount": "20",
+        "img": "12.jpg",
+        "descr": "<b>«Как найти свои сильные стороны»</b><br>Книга написана в результате 30 лет изучения способностей людей. Она помогает найти в себе свои сильные стороны, реализовать тот тапант, который дан вам Богом, стать человеком. воплотившем свои мечты в реальность. Также она поможет раскрыть творческое мышлениеи сформировать духовный интеллект.",
+        "vid": "https://www.youtube.com/embed/O4_qwlPsfjQ?si=nJmSr2nmPssd-3T6"
     }
+
 ]
 
