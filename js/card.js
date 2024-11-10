@@ -66,7 +66,7 @@ function loadProductDetails(data) {
 
 
 function renderInfoProduct(product) {
-    const { img, title, price, discount, descr } = product;
+    const { img, title, price, discount, descr, vid } = product;
     const priceDiscount = price - ((price * discount) / 100);
     const productItem = 
         `
@@ -74,7 +74,7 @@ function renderInfoProduct(product) {
             <div class="product__img">
                 <img src="./images/${img}" alt="${title}">
             </div>
-                <iframe style="" width="400" height="315" src="https://www.youtube.com/embed/nLTkJd4gdbo?si=jJ4bneDbQRg5oFOh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe style="" width="560" height="315" src="${vid}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="product__descr">${descr}</p>
             <div class="product__inner-price">
                 <div class="product__price">
@@ -87,6 +87,6 @@ function renderInfoProduct(product) {
                 </div>
             </div>
         </div>
-        `
+        `   
     wrapper.insertAdjacentHTML('beforeend', productItem);
 }
