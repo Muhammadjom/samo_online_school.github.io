@@ -1,107 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-family: Montserrat, sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-a {
-    color: #7c9ab7;
-    font-weight: bold;
-    text-decoration: none;
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-p {
-    margin: 10px 0;
+h1 {
+    text-align: center;
+    color: #333;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
 }
 
-input {
-    margin: 10px 0;
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
     padding: 10px;
-    border: unset;
-    border-bottom: 2px solid #e3e3e3;
-    outline: none;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
+    width: 100%;
     padding: 10px;
-    background: #e3e3e3;
-    border: unset;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
-.error {
-    border-bottom: 2px solid #ff4332;
+button:hover {
+    background-color: #0056b3;
 }
-
-.msg {
-    border: 2px solid #ffa908;
-    border-radius: 3px;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.none {
-    display: none;
-}
-
-.logout {
-    color: #b7625c;
-}
-
-
-.register-btn {
-    display: block;
-    width: 100%;
-    font-weight: 400;
-    font-size: 17px;
-    color: #70c05b;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #70c05b;
-    border-radius: 4px;
-    cursor: pointer; 
-    transition: 0.2s;
-    margin-top: auto;
-}
-
-.register-btn:hover, .register-btn.active {
-    border: 1px solid #ff6633;
-    background-color: #ff6633;
-    color: #fff;
-}
-
-
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin-top: 400px;
-}
-
-input {
-    margin: 10px 0;
-    padding: 10px;
-    border: unset;
-    border-bottom: 2px solid #e3e3e3;
-    outline: none;
-}
-
-
-
-
