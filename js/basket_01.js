@@ -85,7 +85,6 @@ function renderProductsBasket(arr) {
             <div class="cart__img">
                 <img src="./images/${img}" alt="${title}">
             </div>
-            <div class="cart__del-card">X</div>
         </div>
         `;
         
