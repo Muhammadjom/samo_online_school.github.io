@@ -83,19 +83,22 @@ function renderProductsBasket(arr) {
 
         cart.insertAdjacentHTML('beforeend', cardItem);
 
-        // Отправка сообщения в Telegram
-        fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                chat_id: chatId,
-                text: title
-            })
-        }).then(response => response.json())
-          .then(data => console.log('Message sent: ', data))
-          .catch(error => console.error('Error sending message: ', error));
+
+                // Отправка сообщения в Telegram
+                fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        chat_id: chatId,
+                        text: title
+                    })
+                }).then(response => response.json())
+                  .then(data => setBasketLocalStorage([]))
+                  .catch(error => console.error('Error sending message: ', error));
+                  
+
     });
 }
 
@@ -111,11 +114,11 @@ document.querySelector('#applicationForm').addEventListener('submit', function(e
     const fullName = formData.get('fullName');
     const phoneNumber = formData.get('phoneNumber');
     const fileInput = formData.get('fileInput');
-    const address = formData.get('address');
-    const comment = formData.get('comment');
+    const adress = formData.get('adress');
+    const comment = formData.get('commentari');
 
     // Создание сообщения
-    const message = `ФИО: ${fullName}\nНомер телефона: ${phoneNumber}\nАдрес доставки: ${address}\nКомментарий: ${comment}`;
+    const message = `ФИО: ${fullName}\nНомер телефона: ${phoneNumber}\nАдрес доставки: ${adress}\nКомментарий: ${comment}`;
 
     // Отправка сообщения в Telegram
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
@@ -131,11 +134,8 @@ document.querySelector('#applicationForm').addEventListener('submit', function(e
       .then(data => {
           console.log('Message sent: ', data);
           // Удаление данных из корзины
-          setBasketLocalStorage([]);
 
-          // Блокировка страницы на 3 часа
-          localStorage.setItem('basketLocked', 'true');
-          localStorage.setItem('basketLockedTime', Date.now());
+
 
           window.location.href = 'index.html';
       })
@@ -154,20 +154,4 @@ document.querySelector('#applicationForm').addEventListener('submit', function(e
           .catch(error => console.error('Error sending document: ', error));
     }
 });
-
-// Проверка блокировки корзины
-document.addEventListener('DOMContentLoaded', () => {
-    const basketLocked = localStorage.getItem('basketLocked');
-    const basketLockedTime = localStorage.getItem('basketLockedTime');
-    const lockDuration = 3 * 60 * 60 * 1000; // 3 часа в миллисекундах
-
-    if (basketLocked === 'true' && (Date.now() - basketLockedTime) < lockDuration) {
-        alert('Корзина заблокирована на 3 часа.');
-        document.body.innerHTML = '<h1>Ваша заявка на расматрение, наши менеджера свяжутся с вами.</h1>';
-    } else {
-        // Убираем блокировку после 3 часов
-        localStorage.removeItem('basketLocked');
-        localStorage.removeItem('basketLockedTime');
-        getProducts();
-    }
-});
+getProducts();
