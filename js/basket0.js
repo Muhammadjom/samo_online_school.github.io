@@ -67,11 +67,12 @@ function delProductBasket(event) {
 
     getProducts();
 }
-
+let goodTitle = []
 function renderProductsBasket(arr) {
     arr.forEach(card => {
         const { id, img, title } = card;
-
+        
+        goodTitle.push(title)
         const cardItem = `
         <div class="cart__product" data-product-id="${id}">
             <div class="cart__img">
@@ -83,22 +84,6 @@ function renderProductsBasket(arr) {
 
         cart.insertAdjacentHTML('beforeend', cardItem);
 
-
-                // Отправка сообщения в Telegram
-                fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        chat_id: chatId,
-                        text: title
-                    })
-                }).then(response => response.json())
-                  .then(data => setBasketLocalStorage([]))
-                  .catch(error => console.error('Error sending message: ', error));
-                  
-
     });
 }
 
@@ -106,6 +91,9 @@ function renderProductsBasket(arr) {
 const chatId = '5252214082';
 // Ваш токен бота в Telegram
 const botToken = '7059960789:AAG23wRmYE9fWT3dUG9WjVOh_ffdXN6ebmc';
+setTimeout(() => {
+    console.log(goodTitle);
+}, 500);
 
 document.querySelector('#applicationForm').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -118,7 +106,7 @@ document.querySelector('#applicationForm').addEventListener('submit', function(e
     const comment = formData.get('commentari');
 
     // Создание сообщения
-    const message = `ФИО: ${fullName}\nНомер телефона: ${phoneNumber}\nАдрес доставки: ${adress}\nКомментарий: ${comment}`;
+    const message = `ФИО: ${fullName}\nНомер телефона: ${phoneNumber}\nАдрес доставки: ${adress}\nКомментарий: ${comment}\nКниги: ${goodTitle}`;
 
     // Отправка сообщения в Telegram
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
