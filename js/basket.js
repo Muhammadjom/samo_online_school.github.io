@@ -7,11 +7,9 @@ import {
     getBasketLocalStorage,
     checkingRelevanceValueBasket
 } from './utils.js';
-
+const sum = document.querySelector('.sum');
 const cart = document.querySelector('.cart');
 let productsData = [];
-
-const sum = 
 
 getProducts();
 cart.addEventListener('click', delProductBasket);
@@ -77,10 +75,12 @@ function delProductBasket(event) {
 }
 
 function renderProductsBasket(arr) {
+    let summa = 0
     arr.forEach(card => {
         const { id, img, title, price, discount } = card;
         const priceDiscount = price - ((price * discount) / 100);
-
+        summa += Number(priceDiscount)
+        
         const cardItem = 
         `
         <div class="cart__product" data-product-id="${id}">
@@ -96,5 +96,8 @@ function renderProductsBasket(arr) {
         
         cart.insertAdjacentHTML('beforeend', cardItem);
     });
+    const sumItem = `<span>${summa}</span>$`
+    
+    sum.insertAdjacentHTML('beforeend', sumItem);
 
 }
