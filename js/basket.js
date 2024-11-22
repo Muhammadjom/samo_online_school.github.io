@@ -102,7 +102,7 @@ function renderProductsBasket(arr) {
         
         cart.insertAdjacentHTML('beforeend', cardItem);
     });
-    const sumItem = `<span>${summa}</span>$`
+    const sumItem = `<span>${summa.toFixed(1)}</span>$`
     
     sum.insertAdjacentHTML('beforeend', sumItem);
 
