@@ -78,7 +78,7 @@ function renderProductsBasket(arr) {
         
         
         goodTitle.push(title);
-        goodSumma = summa;
+        goodSumma = summa.toFixed(1);
         const cardItem = `
         <div class="cart__product" data-product-id="${id}">
             <div class="cart__img">
