@@ -71,7 +71,13 @@ function delProductBasket(event) {
     const newBasket = basket.filter(item => item !== id);
     setBasketLocalStorage(newBasket);
 
-    getProducts()
+    getProducts();
+    refreshPage();
+    
+}
+
+function refreshPage() {
+    location.reload();
 }
 
 function renderProductsBasket(arr) {
