@@ -61,6 +61,7 @@ function loadProductBasket(data) {
 }
 
 function delProductBasket(event) {
+    refreshPage();
     const targetButton = event.target.closest('.cart__del-card');
     if (!targetButton) return;
 
