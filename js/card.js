@@ -75,7 +75,7 @@ function renderInfoProduct(product) {
             <div class="product__img">
                 <img src="./images/${img}" alt="${title}">
             </div>
-                <iframe style="max-width: 400px; width: 100%;" src="${vid}" ></iframe>
+                <iframe style="max-width: 400px; width: 100%;" src="${vid}"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p class="product__descr">${descr}</p>
             <div class="product__inner-price">
                 <div class="product__price">
