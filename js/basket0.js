@@ -84,7 +84,6 @@ function renderProductsBasket(arr) {
             <div class="cart__img">
                 <img src="./images/${img}" alt="${title}">
             </div>
-            <input class="title" type="text" value="${title}">
         </div>
         `;
 
