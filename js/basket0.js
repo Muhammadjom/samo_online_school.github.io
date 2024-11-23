@@ -134,7 +134,7 @@ document.querySelector('#applicationForm').addEventListener('submit', function(e
 
 
 
-          window.location.href = 'index.html';
+
       })
       .catch(error => console.error('Error sending message: ', error));
 
@@ -147,8 +147,9 @@ document.querySelector('#applicationForm').addEventListener('submit', function(e
             method: 'POST',
             body: fileFormData
         }).then(response => response.json())
-          .then(data => alert("Заявка успешно отправлена в Telegram!"))
+          .then(data => alert("Ваша заявка успешно отправлена, скоро свяжемся с вами!"))
           .catch(error => console.error('Error sending document: ', error));
+        window.location.href = 'index.html';
     }
 });
 getProducts();
