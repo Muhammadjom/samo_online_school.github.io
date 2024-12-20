@@ -4,18 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Форма заявки</title>
+    <title>Форма заявки с модальным индикатором</title>
     <link rel="stylesheet" href="/style/styles.css">
     <script src="./js/register.js" type="module" defer></script>
     <script src="./js/basket0.js" type="module" defer></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Стиль для модального окна */
+        .modal {
+            display: none; /* Скрыто по умолчанию */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            width: 200px;
+            height: 150px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 6px solid rgba(0, 0, 0, 0.1);
+            border-top-color: #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        .modal-text {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="loader"></div>
+            <p class="modal-text">Пожалуйста, подождите...</p>
+        </div>
+    </div>
 
+    <!-- Форма заявки -->
     <form method="post" id="applicationForm">
         <img style="width: 150px; height: 125px;" src="/images/4554545.jpg" alt="">  
         <label for="fullName">ФИО</label>
         <input type="text" id="fullName" name="fullName" required placeholder="Введите свое полное имя">
-        <label for="phoneNumber">НОМЕР ТЕЛЕФОНA</label>
+        <label for="phoneNumber">НОМЕР ТЕЛЕФОНА</label>
         <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Введите своего номера телефона">
         <label for="adress">ПОЛНЫЙ АДРЕС ДОСТАВКИ</label>
         <input type="text" id="adress" name="adress" required placeholder="Введите страна, город, места доставки">
@@ -28,12 +92,40 @@
                 </div>
             </a>
         </div>
-        <label for="consoleOutput"  id="consoleOutput"></label>
+        <label for="consoleOutput" id="consoleOutput"></label>
         <label for="fileInput">ЧЕК ПОКУПКИ</label>
-        <input style=" background-color: red; color: white;" type="file" id="fileInput" name="fileInput" required>
+        <input style="background-color: red; color: white;" type="file" id="fileInput" name="fileInput" required>
         <label for="commentari">КОММЕНТАРИЯ</label>
         <input type="text" id="commentari" name="commentari" placeholder="Введите текст">
         <button type="submit" id="submitButton" class="register-btn">Отправить заявку</button>
     </form>
+
+    <script>
+        // Получаем элементы формы и модального окна
+        const form = document.getElementById('applicationForm');
+        const modal = document.getElementById('modal');
+
+        // Функция для показа модального окна
+        function showModal() {
+            modal.style.display = 'flex'; // Показываем модальное окно
+        }
+
+        // Функция для скрытия модального окна
+        function hideModal() {
+            modal.style.display = 'none'; // Скрываем модальное окно
+        }
+
+        // Обработчик отправки формы
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Предотвращаем стандартную отправку
+            showModal(); // Показываем модальное окно
+
+            // Симуляция загрузки данных
+            setTimeout(() => {
+                alert('Форма успешно отправлена!');
+                hideModal(); // Скрываем модальное окно
+            }, 3000); // Время ожидания загрузки
+        });
+    </script>
 </body>
 </html>
