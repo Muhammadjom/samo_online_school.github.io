@@ -59,6 +59,25 @@
         function closeModal() {
           document.getElementById('myModal').style.display = 'none';
         }
+
+
+    const button = document.querySelector('.btn-send');
+
+    // Массив цветов для анимации
+    const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6', '#1abc9c', '#34495e'];
+
+    let colorIndex = 0;
+
+    // Функция, которая меняет цвет кнопки
+    function changeColor() {
+        button.style.backgroundColor = colors[colorIndex];
+        
+        // Обновляем индекс для следующего цвета
+        colorIndex = (colorIndex + 1) % colors.length;
+    }
+
+    // Вызываем функцию каждый 1 секунду
+    setInterval(changeColor, 500);
       </script>
 </body>
 </html>
